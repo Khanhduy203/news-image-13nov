@@ -10,6 +10,7 @@
 // JPEG in an entry.png name.
 // Deterministic: both runs copy the same bytes, so the two grader runs match.
 // The program reads nothing else and writes only entry.png.
+// v2: the breaking-news hero replaces the infographic; the copy logic is unchanged.
 //
 // Local run: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
