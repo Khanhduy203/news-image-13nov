@@ -5,6 +5,7 @@
 // The program copies it to /output/entry.png. The gate accepts a whole PNG or
 // JPEG of at most 1 MiB and 1024 by 1024 pixels; this file is a 1024x1024 PNG.
 // Deterministic: both runs copy the same bytes, so the two grader runs match.
+// The program reads nothing else and writes only entry.png.
 //
 // Local run: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
